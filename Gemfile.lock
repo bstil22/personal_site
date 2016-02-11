@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.8.4)
+    power_assert (0.2.7)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    test-unit (3.1.7)
+      power_assert
+    tilt (2.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest (~> 5.8, >= 5.8.4)
+  rack (~> 1.6, >= 1.6.4)
+  sinatra
+  test-unit (~> 3.1, >= 3.1.7)
+
+BUNDLED WITH
+   1.10.6
