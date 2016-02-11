@@ -8,7 +8,7 @@ class HelloWorldTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
   def app
-    Sinatra::Application
+    Sin_rest
   end
 
   def test_it_says_hello_world
