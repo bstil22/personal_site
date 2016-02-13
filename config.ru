@@ -3,5 +3,5 @@ require 'bundler'
 
 Bundler.require
 
-require './hello'
+require './lib/hello'
 run Sin_rest
