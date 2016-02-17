@@ -22,4 +22,9 @@ class HelloWorldTest < Test::Unit::TestCase
     get '/', :name => 'Simon'
     assert last_response.body.include?('Simon')
   end
+
+  def test_it_renders_the_about_page
+    get '/about'
+    assert_equal last_response.status, 200
+  end
 end

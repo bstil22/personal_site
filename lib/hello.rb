@@ -7,4 +7,8 @@ class Sin_rest < Sinatra::Base
     content_type :json
     {name: "Hello World #{params[:name]}"}.to_json
   end
+
+  get '/about' do 
+
+  end
 end
