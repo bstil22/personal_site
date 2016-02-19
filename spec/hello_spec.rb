@@ -26,5 +26,12 @@ class HelloWorldTest < Test::Unit::TestCase
   def test_it_renders_the_about_page
     get '/about'
     assert_equal last_response.status, 200
+    assert last_response.body.include?("This is where I describe my project.")
+  end
+
+  def test_it_renders_the_index_page
+    get '/index'
+    assert_equal last_response.status, 200
+    assert last_response.body.include?("Look at all our note records that do not exist yet")
   end
 end
