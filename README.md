@@ -1,5 +1,5 @@
-# sinatra_rest
-Sinatra REST API in progress...
+# personal_site
+beginnings of a personal website
 
 # install
 `bundle install`
